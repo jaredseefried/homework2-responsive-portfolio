@@ -73,10 +73,18 @@ footer{
 
 .mainRow{
     padding-bottom: 24px;
-    background-color: #e5e5e5;
 }
 
 .mainServices{
     padding-top:3%;
     padding-bottom:3%;
+    background-color: #e5e5e5;
+}
+
+.langIcons {
+    width:75px;
+}
+
+.languages {
+    padding: 5%;
 }
