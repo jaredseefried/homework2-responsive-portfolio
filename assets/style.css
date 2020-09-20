@@ -54,15 +54,12 @@ body{
 }
 
 footer{
-    padding-top: 5%;
+    padding-top: 4%;
     background-color: #737373;
 }
 
 .servicesText {
-    width: 75%;
-    position: relative;
-    left: 100px;
-    text-align: left;
+
     padding: 18px;
 }
 
@@ -80,5 +77,6 @@ footer{
 }
 
 .mainServices{
-    padding-top:4%;
+    padding-top:3%;
+    padding-bottom:3%;
 }
