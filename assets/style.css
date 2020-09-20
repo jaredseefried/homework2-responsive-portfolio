@@ -1,11 +1,15 @@
+/* Global Styles */
 body{
     margin: 0 auto;
     
 }
+
+/* Navigation */
  .navbar {
      padding-left: 10%;
  }
 
+ /* Main Background Image */
  .jumbotron {
      margin: 0 -25px;
      background-image: url("./images/hire-full-stack-developer-banner.jpg");
@@ -14,6 +18,7 @@ body{
      padding-bottom: 13%;
  }
 
+ /* Main Picture */
  #profilePic {
     border-radius: 50%;
     width: 44%;
@@ -25,20 +30,40 @@ body{
     /* margin-left: 25%; */
 }
 
-
+/* Information on top of Background Image */
 .display-4, .lead {
     color: white;
 }
 
+.fullStackPara{
+    width: 75%;
+}
+
+/* Front End and Back End Development Section */
 .services {
     width: 84%;
     margin: 0 auto;
 }
 
+/* Biography Section */
 #heading2{
     padding-top: 9%;
 }
 
+.mainContent{
+    padding-bottom: 4%;
+}
+
+.mainRow{
+    padding-bottom: 24px;
+}
+
+/* Front and Back End Sevelopment Sections */
+.servicesText {
+    padding: 18px;
+}
+
+/* Icons */
 #frontEndImg, #backEndImg {
     height: auto;
     margin: 0 auto;
@@ -53,34 +78,14 @@ body{
     width: 100px;
 }
 
-footer{
-    padding-top: 4%;
-    background-color: #737373;
-}
-
-.servicesText {
-
-    padding: 18px;
-}
-
-.fullStackPara{
-    width: 75%;
-}
- 
-.mainContent{
-    padding-bottom: 4%;
-}
-
-.mainRow{
-    padding-bottom: 24px;
-}
-
 .mainServices{
     padding-top:3%;
     padding-bottom:3%;
-    background-color: #e5e5e5;
+    background-color: #f8f9fa;
 }
 
+/* Languages Section */
+/* Icons */
 .langIcons {
     width:75px;
 }
@@ -88,3 +93,9 @@ footer{
 .languages {
     padding: 5%;
 }
+    
+/* Footer */
+    footer{
+        padding-top: 4%;
+        background-color: #737373;
+    }

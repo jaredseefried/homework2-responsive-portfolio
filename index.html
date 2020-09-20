@@ -17,7 +17,12 @@
 </head>
 
 <body>
+
+  <!--Header Start-->
   <header>
+
+    <!--Navigation-->
+    <!--Name/Logo-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Jared</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -39,73 +44,102 @@
       </div>
     </nav>
   </header>
-  <div class="container-fluid">
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Jared Seefried</h1>
-        <p class="lead">Full Stack Development Portfolio</p>
-      </div>
-    </div>
-    <div class="row mainRow">
-      <div class="col-4">
-        <!-- Image with link -->
-        <img id="profilePic" src="./assets/images/JaredsPicture.jpg" alt="Jared Seefried">
-      </div>
+  <!--Header End-->
 
-      <div class="col-8 mainContent">
-        <h2 id="heading2"> Fullstack Development </h2>
-        <p class="fullStackPara">A full stack web developer is a person who can develop both client and server software.
-          In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript,
-          jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+  <!--Main background Image-->
+  <main>
+    <div class="container-fluid">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <!--Information on top of Background Image-->
+          <h1 class="display-4">Jared Seefried</h1>
+          <p class="lead">Full Stack Development Portfolio</p>
+        </div>
+      </div>
+    </main>
+
+    <!--Section: Main Image and Biography Information-->
+  <section>
+    <div class="container-fluid">
+      <div class="row mainRow">
+        <div class="col-4">
+
+          <!-- Image with link -->
+          <img id="profilePic" src="./assets/images/JaredsPicture.jpg" alt="Jared Seefried profile picture.">
+        </div>
+
+        <!-- Biography Informaion -->
+        <div class="col-8 mainContent">
+          <h2 id="heading2"> Fullstack Development </h2>
+          <p class="fullStackPara">A full stack web developer is a person who can develop both client and server
+            software.
+            In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript,
+            jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+        </div>
       </div>
     </div>
-    <div class="row mainServices">
-      <div class="col-6 services">
-        <h3 class="frontBackDev text-center">Front End Development</h3>
-        <img class="img-fluid" id="frontEndImg" src="./assets/images/html.png" alt="">
-        <p class="servicesText">A front-end web developer is responsible for implementing visual elements that users see
-          and interact with in a web application. They are usually supported by back-end web developers, who are
-          responsible for server-side application logic and integration of the work front-end developers do.</p>
-      </div>
-      <div class="col-6 services">
-        <h3 class="frontBackDev text-center">Back End Development</h3>
-        <img class="img-fluid" id="backEndImg" src="./assets/images/api.png"
-          alt="An icon that says API for the Back End Developer section">
-        <p class="servicesText">A back-end web developer is responsible for server-side web application logic and
-          integration of the work front-end developers do. Back-end developers are usually write the web services and
-          APIs used by front-end developers and mobile application developers.</p>
-      </div>
-    </div>
-    <div class="row languages">
-      <div class="col-12">
-        <h3 class="text-center">Languages</h3>
-      </div>
-      <div class="col-2 text-center">
-        <h5>HTML</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
-      </div>
-      <div class="col-2 text-center">
-        <h5>CSS</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
-      </div>
-      <div class="col-2 text-center">
-        <h5>JS</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
-      </div>
-      <div class="col-2 text-center">
-        <h5>SQL</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
-      </div>
-      <div class="col-2 text-center">
-        <h5>API</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
-      </div>
-      <div class="col-2 text-center">
-        <h5>EXAMPLE</h5>
-        <img class="langIcons" src="./assets/images/code-solid.png" alt />
+  </section>
+
+  <!--Front and Back End Development Services-->
+  <section>
+    <div class="container-fluid">
+      <div class="row mainServices">
+        <div class="col-6 services">
+          <h3 class="frontBackDev text-center">Front End Development</h3>
+          <img class="img-fluid" id="frontEndImg" src="./assets/images/html.png" alt="Front End Development Icon">
+          <p class="servicesText">A front-end web developer is responsible for implementing visual elements that users
+            see
+            and interact with in a web application. They are usually supported by back-end web developers, who are
+            responsible for server-side application logic and integration of the work front-end developers do.</p>
+        </div>
+        <div class="col-6 services">
+          <h3 class="frontBackDev text-center">Back End Development</h3>
+          <img class="img-fluid" id="backEndImg" src="./assets/images/api.png"
+            alt="Back End Development Icon">
+          <p class="servicesText">A back-end web developer is responsible for server-side web application logic and
+            integration of the work front-end developers do. Back-end developers are usually write the web services and
+            APIs used by front-end developers and mobile application developers.</p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!--Languages Section-->
+  <section>
+    <div class="container-fluid">
+      <div class="row languages">
+        <div class="col-12">
+          <h3 class="text-center">Languages</h3>
+        </div>
+        <div class="col-2 text-center">
+          <h5>HTML</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+        <div class="col-2 text-center">
+          <h5>CSS</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+        <div class="col-2 text-center">
+          <h5>JS</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+        <div class="col-2 text-center">
+          <h5>SQL</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+        <div class="col-2 text-center">
+          <h5>API</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+        <div class="col-2 text-center">
+          <h5>EXAMPLE</h5>
+          <img class="langIcons" src="./assets/images/code-solid.png" alt="Language Icons" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
   <footer>
     <div class="container">
       <div class="row">
