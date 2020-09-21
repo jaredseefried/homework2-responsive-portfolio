@@ -21,7 +21,7 @@ body{
  /* Main Picture */
  #profilePic {
     border-radius: 6%;
-    width: 63%;
+    width: 45%;
     border: 4px solid white;
     box-shadow: 1px 3px 11px #939393;
     margin: 0 auto;
@@ -32,10 +32,6 @@ body{
 /* Information on top of Background Image */
 .display-4, .lead {
     color: white;
-}
-
-.fullStackPara{
-    width: 75%;
 }
 
 /* Front End and Back End Development Section */
