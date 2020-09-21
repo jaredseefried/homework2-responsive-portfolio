@@ -17,3 +17,32 @@ body{
 .contactHead {
     padding-top: 5%;
 }
+
+/* Footer */
+footer{
+    padding-top: 4%;
+    background-color: #f8f9fa;
+    margin-bottom: 60px;
+}
+
+/* Social Icons */
+#socialLinks {
+width: 35px;
+padding: 5px 0px 5px 0px;
+margin-left: 16px;
+}
+
+.socialList {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+/* Sitemap */
+
+.sitemap {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
