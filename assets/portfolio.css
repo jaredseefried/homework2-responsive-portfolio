@@ -15,10 +15,10 @@ body{
 }
 
 /* Footer */
-footer{
+footer {
     padding-top: 4%;
     background-color: #f8f9fa;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 /* Social Icons */
