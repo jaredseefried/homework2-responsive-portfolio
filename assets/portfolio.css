@@ -2,11 +2,11 @@ body{
     margin: 0 auto;
     
 }
- .navbar {
+.navbar {
      padding-left: 10%;
  }
 
- .jumbotron {
+.jumbotron {
     background-image: url(./images/portfolio-banner.jpg);
     margin: 0 -25px;
     background-repeat: no-repeat;
