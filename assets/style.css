@@ -92,8 +92,9 @@ body{
 /* Footer */
 footer {
     padding-top: 4%;
-    background-color: #f8f9fa;
+    background-color: #0a0a0a;
     padding-bottom: 60px;
+    color: white;
 }
 
 /* Social Icons */
@@ -118,8 +119,11 @@ footer {
       font-size: 20px;
   }
 
-  /* Media Queries */
+.sitemapLinks{
+    color: white;
+}
 
+/* Media Queries */
 @media screen and (max-width:800px){
     #display-4 {
         font-size: 14px;
