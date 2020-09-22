@@ -1,7 +1,18 @@
+/* Global Styles */
 body{
     margin: 0 auto;
     
 }
+
+.navbar, .jumbotron, h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
  .navbar {
      padding-left: 10%;
  }
@@ -14,6 +25,7 @@ body{
     padding-bottom: 20%;
 }
 
+/* Contact Form */
 .contactHead {
     padding-top: 5%;
 }
