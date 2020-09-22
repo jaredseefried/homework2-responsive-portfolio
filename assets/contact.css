@@ -12,6 +12,10 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    padding-bottom: 5%;
+}
+
 /* Navigation */
  .navbar {
      padding-left: 10%;
@@ -52,7 +56,6 @@ padding: 0;
 }
 
 /* Sitemap */
-
 .sitemap {
   list-style-type: none;
   margin: 0;
