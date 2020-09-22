@@ -30,6 +30,15 @@ p {
     padding-top: 20px;
 }
 
+.folioItems {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0px;
+    border-radius: 26%;
+}
+
 /* Footer */
 footer {
     padding-top: 4%;
