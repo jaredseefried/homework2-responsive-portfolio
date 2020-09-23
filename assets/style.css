@@ -23,6 +23,7 @@ p {
      background-repeat: no-repeat;
      background-position: center;
      padding-bottom: 13%;
+     box-shadow: 2px 2px 10px black;
  }
 
  /* Main Picture */
