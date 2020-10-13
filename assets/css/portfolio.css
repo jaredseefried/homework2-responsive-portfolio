@@ -49,12 +49,17 @@ main {
 }
 
 .githubIcon {
-    width: 8%;
-    display: block;
-    margin: 0 auto;
-    float: left;
+    width: 12%;
 }
+
 .githubInfo{
+    margin-left: 28px;
+    float: left;
+    margin-right: 22px;
+    color: #262626;
+}
+
+.resume{
     margin-left: 28px;
     float: left;
     margin-right: 22px;
@@ -65,9 +70,9 @@ main {
 }
 
 .dropbox{
-    width: 7%;
+    width: 12%;
     margin-right: 15px;
-    margin-top: 8px;
+    margin-top: -1px;
 }
 
 .githubRep{
