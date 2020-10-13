@@ -44,7 +44,7 @@ footer {
 }
 
 /* Social Icons */
-#socialLinks {
+#socialLinks, .socialLinks {
 width: 35px;
 padding: 5px 0px 5px 0px;
 margin-left: 16px;

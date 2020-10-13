@@ -40,12 +40,6 @@ main {
     margin: 0 auto;
 }
 
-#profilePic {
-    width: 100%;
-    margin-top: 89px;
-    border-radius: 20%;
-}
-
 /* Footer */
 footer {
     padding-top: 4%;
