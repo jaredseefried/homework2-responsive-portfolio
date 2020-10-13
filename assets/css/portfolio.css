@@ -46,8 +46,6 @@ main {
 
 .links2{
     margin-top: 60px;
-    position: absolute;
-    right: 0%;
 }
 
 .githubIcon {
@@ -69,12 +67,12 @@ main {
 .dropbox{
     width: 7%;
     margin-right: 15px;
+    margin-top: 8px;
 }
 
 .githubRep{
     margin-top: 60px;
-    position: absolute;
-    right: 35%;
+    
 }
 
 .cardRows{
@@ -109,4 +107,22 @@ padding: 0;
   margin: 0;
   padding: 0;
   font-size: 20px;
+}
+
+@media screen and (max-width:800px){
+    .links {
+height: 369px;
+    }
+
+    .githubInfo{
+        float: left;
+        margin: 0 auto;
+    }
+
+    .dropbox{
+        width: 13%;
+        margin-right: 32px;
+        margin-top: 5px;
+        margin-left: 21px;
+    }
 }
