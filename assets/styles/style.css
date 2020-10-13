@@ -19,7 +19,7 @@ p {
  /* Main Background Image */
  .jumbotron {
      margin: 0 -25px;
-     background-image: url("./images/hire-full-stack-developer-banner.jpg");
+     background-image: url("/homework/Homework2/homework2-responsive-portfolio/assets/images/hire-full-stack-developer-banner.jpg");
      background-repeat: no-repeat;
      background-position: center;
      padding-bottom: 13%;
