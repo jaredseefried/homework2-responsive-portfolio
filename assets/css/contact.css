@@ -22,7 +22,7 @@ p {
  }
 
  .jumbotron {
-    background-image: url(./images/contact-banner.jpg);
+    background-image: url(../images/contact-banner.jpg);
     margin: 0 -25px;
     background-repeat: no-repeat;
     background-position: center;

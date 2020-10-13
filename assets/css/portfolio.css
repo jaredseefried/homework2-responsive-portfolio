@@ -18,7 +18,7 @@ p {
  }
 
 .jumbotron {
-    background-image: url(./images/portfolio-banner.jpg);
+    background-image: url(../images/portfolio-banner.jpg);
     margin: 0 -25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,13 +35,15 @@ main {
     padding: 40px 0px;
 }
 
-.folioItems {
-    width: 50%;
-    height: auto;
+.card {
     display: block;
     margin: 0 auto;
-    box-shadow: 1px 2px 10px black;
-    border-radius: 26%;
+}
+
+#profilePic {
+    width: 100%;
+    margin-top: 89px;
+    border-radius: 20%;
 }
 
 /* Footer */

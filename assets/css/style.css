@@ -19,7 +19,7 @@ p {
  /* Main Background Image */
  .jumbotron {
      margin: 0 -25px;
-     background-image: url("/homework/Homework2/homework2-responsive-portfolio/assets/images/hire-full-stack-developer-banner.jpg");
+     background-image: url(../images/hire-full-stack-developer-banner.jpg);
      background-repeat: no-repeat;
      background-position: center;
      padding-bottom: 13%;
@@ -28,14 +28,10 @@ p {
 
  /* Main Picture */
  #profilePic {
-    border-radius: 6%;
-    width: 45%;
-    border: 4px solid white;
-    box-shadow: 1px 3px 11px #939393;
-    margin: 0 auto;
-    display: block;
-    margin-top: 18%;
- }
+    width: 100%;
+    margin-top: 89px;
+    border-radius: 20%;
+}
 
 /* Information on top of Background Image */
 .display-4, .lead {
@@ -55,10 +51,12 @@ p {
 
 .mainContent{
     padding-bottom: 4%;
+    padding-left: 75px;
 }
 
 .mainRow{
     padding-bottom: 24px;
+    margin: 0px 0px 0px 100px;
 }
 
 /* Front and Back End Sevelopment Sections */
