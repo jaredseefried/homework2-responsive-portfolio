@@ -18,7 +18,6 @@ p {
 
  /* Main Background Image */
  .jumbotron {
-     margin: 0 -25px;
      background-image: url(../images/hire-full-stack-developer-banner.jpg);
      background-repeat: no-repeat;
      background-position: center;
@@ -51,12 +50,15 @@ p {
 
 .mainContent{
     padding-bottom: 4%;
-    padding-left: 75px;
 }
 
 .mainRow{
     padding-bottom: 24px;
     margin: 0px 0px 0px 100px;
+}
+
+.section{
+    background-color: #e3e8ec;
 }
 
 /* Front and Back End Sevelopment Sections */
