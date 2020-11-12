@@ -151,5 +151,12 @@ footer {
     .collapse:not(.show) {
         display: flex;
     }
+
+    #profilePic {
+        width: 100%;
+         margin-top: 0;
+        border-radius: 20%;
+         margin-left: 0; 
+    }
 }
   
